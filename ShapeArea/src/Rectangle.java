@@ -6,7 +6,7 @@ public class Rectangle implements Shape {
 	public Rectangle(double length,double width) {
 		this.length = length;
 		this.width = width;
-		area = width*width;
+		area = length*width;
 	}
 	
 	 @Override
